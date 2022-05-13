@@ -7,7 +7,8 @@ body{
     margin: 0 auto;
     margin-top:300px;
     text-align:center;
-    position: relative;
+    -ms-flex: 1; /* IE 10 */
+  flex: 1;
 }
 #header .logo{
     font-size: 60px;
