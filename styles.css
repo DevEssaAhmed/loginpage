@@ -3,13 +3,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 } 
 #container {
-    display: flex;
-	align-items: center;
-	justify-content: center;
-    width:300px;
-    margin: 0 auto;
-    margin-top:300px;
-    text-align:center;   
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   width:300px;
+   text-align:center;   
 }
 #header .logo{
     font-size: 60px;
